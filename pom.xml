@@ -5,7 +5,7 @@
 	<artifactId>my-parent-pom</artifactId>
 	<version>0.0.1</version>
 	<packaging>pom</packaging>
-	
+
 	<name>my-parent-pom</name>
 	<url>http://maven.apache.org</url>
 
@@ -28,8 +28,8 @@
 		<org.springframework-version>4.0.0.RELEASE</org.springframework-version>
 		<java-version>1.8</java-version>
 	</properties>
-	
-	
+
+
 	<dependencies>
 		<!-- springframework -->
 		<dependency>
@@ -147,7 +147,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
@@ -223,7 +223,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-	 <!-- websocket -->
+		<!-- websocket -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-websocket</artifactId>
@@ -446,28 +446,28 @@
 
 		<!-- log4j2 -->
 		<dependency>
-		    <groupId>org.apache.logging.log4j</groupId>
-		    <artifactId>log4j-api</artifactId>
-		    <version>${log4j2-version}</version>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${log4j2-version}</version>
 		</dependency>
-		
+
 		<dependency>
-		    <groupId>org.apache.logging.log4j</groupId>
-		    <artifactId>log4j-core</artifactId>
-		    <version>${log4j2-version}</version>
-		    <exclusions>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j2-version}</version>
+			<exclusions>
 				<exclusion>
 					<groupId>org.apache.logging.log4j</groupId>
 					<artifactId>log4j-api</artifactId>
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
 		<dependency>
-		   <groupId>org.apache.logging.log4j</groupId>
-		   <artifactId>log4j-slf4j-impl</artifactId>
-		   <version>${log4j2-version}</version>
-		   <exclusions>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j-impl</artifactId>
+			<version>${log4j2-version}</version>
+			<exclusions>
 				<exclusion>
 					<groupId>org.apache.logging.log4j</groupId>
 					<artifactId>log4j-api</artifactId>
@@ -484,10 +484,10 @@
 		</dependency>
 
 		<dependency>
-		   <groupId>org.apache.logging.log4j</groupId>
-		   <artifactId>log4j-web</artifactId>
-		   <version>${log4j2-version}</version>
-		   <exclusions>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-web</artifactId>
+			<version>${log4j2-version}</version>
+			<exclusions>
 				<exclusion>
 					<groupId>org.apache.logging.log4j</groupId>
 					<artifactId>log4j-api</artifactId>
@@ -514,19 +514,16 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
-		<!--<dependency>
-		    <groupId>log4j</groupId>
-		    <artifactId>log4j</artifactId>
-		    <version>1.2.17</version>
-		</dependency>-->
-		
+
+		<!--<dependency> <groupId>log4j</groupId> <artifactId>log4j</artifactId> 
+			<version>1.2.17</version> </dependency> -->
+
 		<dependency>
-		   <groupId>com.lmax</groupId>
-		   <artifactId>disruptor</artifactId>
-		   <version>${disruptor-version}</version>
+			<groupId>com.lmax</groupId>
+			<artifactId>disruptor</artifactId>
+			<version>${disruptor-version}</version>
 		</dependency>
-		
+
 		<!-- common -->
 		<dependency>
 			<groupId>commons-pool</groupId>
@@ -643,11 +640,11 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
 		<dependency>
-		  <groupId>org.apache.commons</groupId>
-		  <artifactId>commons-lang3</artifactId>
-		  <version>3.7</version>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.7</version>
 		</dependency>
 
 		<!-- http client -->
@@ -863,4 +860,8 @@
 			<version>1.2.37</version>
 		</dependency>
 	</dependencies>
+	
+	<developers>
+		<developer>daipeng</developer>
+	</developers>
 </project>
