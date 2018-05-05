@@ -861,7 +861,9 @@
 		</dependency>
 	</dependencies>
 	
+	<!-- 
 	<developers>
 		<developer>daipeng</developer>
 	</developers>
+	 -->
 </project>
